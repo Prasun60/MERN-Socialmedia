@@ -67,6 +67,7 @@ const Form = () => {
       "https://mern-socialmedia-doak.vercel.app/auth/register",
       {
         method: "POST",
+        headers: { "Content-Type": "application/json" },
         body: formData,
       }
     );
