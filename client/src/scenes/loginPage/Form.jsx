@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://mern-socialmedia-doak.vercel.app/auth/register",
+      "https://mern-socialmedia-n7ny.vercel.app/auth/register",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
